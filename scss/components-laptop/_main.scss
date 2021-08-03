@@ -1,0 +1,65 @@
+// style singular
+.text {
+
+  .text__title {
+    font-size: 3.2rem;
+
+  }
+
+  .text__copy {
+    font-size: 1.7rem;
+    max-width: 650px;
+  }
+
+}
+
+// style nested
+main {
+
+  .section__one {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+    .section__one__fig {
+      margin-bottom: 0;
+
+      .section__one__img {
+        position: relative;
+        left: -10%;
+        max-width: 870px;
+      }
+
+    }
+
+    .section__one__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+
+      .section__one__text {
+        text-align: start;
+
+        .section__one__copy {
+          margin: 0;
+        }
+
+      }
+
+    }
+
+  }
+
+  .section__two {
+
+    .section__two__fig {
+
+      .section__two__img {
+        max-width: 850px;
+      }
+
+    }
+
+  }
+
+}

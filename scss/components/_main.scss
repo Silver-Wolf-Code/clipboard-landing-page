@@ -1,0 +1,131 @@
+// style singular
+.text {
+  text-align: center;
+  margin-bottom: 65px;
+
+  .text__title {
+    font-size: 2.8rem;
+    color: $Dark-Grayish-Blue;
+    margin-bottom: 20px;
+  }
+
+  .text__copy {
+    color: $Grayish-Blue;
+    line-height: 1.6;
+    max-width: 622px;
+    margin: 0 auto;
+  }
+
+}
+
+// style nested
+main {
+  padding: 0 32.2px;
+
+  .section__one {
+    margin-bottom: 185px;
+
+    .section__one__fig {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 60px;
+
+      .section__one__img {
+        width: inherit;
+        max-width: 630px;
+      }
+
+    }
+
+    .section__one__content {
+
+      .section__one__text {
+        text-align: center;
+        margin-bottom: 50px;
+
+        .section__one__title {
+          color: $Dark-Grayish-Blue;
+          margin-bottom: 15px;
+          font-size: 2.5rem;
+        }
+
+        .section__one__copy {
+          color: $Grayish-Blue;
+          line-height: 1.6;
+          max-width: 353px;
+          margin: 0 auto;
+        }
+
+      }
+
+    }
+
+  }
+
+  .section__two {
+    margin-bottom: 95px;
+
+    .section__two__fig {
+      text-align: center;
+      width: 100%;
+
+      .section__two__img {
+        width: inherit;
+        max-width: 630px;
+      }
+
+    }
+
+  }
+
+  .section__three {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 105px;
+
+    .section__three__row {
+      margin-bottom: 130px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+      gap: 60px 40px;
+      justify-content: center;
+
+      .section__three__column {
+
+        .section__three__ico {
+          margin-bottom: 30px;
+          height: 40px;
+        }
+
+        .section__three__title {
+          font-size: 2.5rem;
+          color: $Dark-Grayish-Blue;
+          margin-bottom: 28px;
+        }
+
+        .section__three__copy {
+          color: $Grayish-Blue;
+          line-height: 1.6;
+          max-width: 350px;
+          margin: 0 auto;
+        }
+
+      }
+
+    }
+
+    .section__three__content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 140px));
+      gap: 65px 100px;
+      justify-content: center;
+
+    }
+
+  }
+
+  .btns--mod {
+    margin-bottom: 150px;
+  }
+
+}

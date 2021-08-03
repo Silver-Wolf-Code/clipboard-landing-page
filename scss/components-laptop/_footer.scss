@@ -1,0 +1,13 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  align-items: center;
+
+  .footer__content__two {
+    display: flex;
+    text-align: left;
+    gap: 100px;
+  }
+
+
+}

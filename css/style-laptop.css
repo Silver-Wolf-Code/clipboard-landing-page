@@ -1,0 +1,67 @@
+.btns .btn {
+  font-size: 1.7rem;
+}
+
+.hero .hero__text .hero__title {
+  font-size: 4rem;
+}
+
+.hero .hero__text .hero__copy {
+  font-size: 1.8rem;
+  max-width: 620px;
+}
+
+.text .text__title {
+  font-size: 3.2rem;
+}
+
+.text .text__copy {
+  font-size: 1.7rem;
+  max-width: 650px;
+}
+
+main .section__one {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+main .section__one .section__one__fig {
+  margin-bottom: 0;
+}
+
+main .section__one .section__one__fig .section__one__img {
+  position: relative;
+  left: -10%;
+  max-width: 870px;
+}
+
+main .section__one .section__one__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+main .section__one .section__one__content .section__one__text {
+  text-align: start;
+}
+
+main .section__one .section__one__content .section__one__text .section__one__copy {
+  margin: 0;
+}
+
+main .section__two .section__two__fig .section__two__img {
+  max-width: 850px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  align-items: center;
+}
+
+.footer .footer__content__two {
+  display: flex;
+  text-align: left;
+  gap: 100px;
+}

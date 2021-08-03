@@ -1,0 +1,14 @@
+// !abstract
+
+@import 
+  "abstract/variables",
+  "abstract/inherit",
+  "abstract/mixin";
+
+// !components
+
+@import
+  "components-tablet/header",
+  "components-tablet/main",
+  "components-tablet/footer";
+
