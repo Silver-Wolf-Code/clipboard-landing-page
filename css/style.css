@@ -208,7 +208,6 @@ main .btns--mod {
 .footer .footer__content__two .footer__links {
   display: flex;
   flex-direction: column;
-  gap: 35px;
 }
 
 .footer .footer__content__two .footer__link {
@@ -219,6 +218,10 @@ main .btns--mod {
 .footer .footer__content__two .footer__link:hover {
   color: #26baa4;
   transition: .5s ease;
+}
+
+.footer .footer__content__two .footer__link--mod {
+  margin-bottom: 35px;
 }
 
 .footer .footer__content__three {
